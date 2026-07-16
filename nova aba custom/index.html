@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Nova Aba</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#111;
+    background-image:url("wallpaper.jpg");
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    font-family:Arial,sans-serif;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+.links{
+    position:absolute;
+    top:50%;
+    left:0;
+    width:100%;
+    transform:translateY(-50%);
+    display:flex;
+    justify-content:space-between;
+    padding:0 50px;
+}
+
+.coluna{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:15px;
+}
+
+.coluna a{
+    width:150px;
+    text-decoration:none;
+    color:white;
+    background:rgba(94,28,158,.55);
+    padding:12px;
+    border-radius:10px;
+    text-align:center;
+    transition:.2s;
+}
+
+.coluna a:hover{
+    background:rgba(255,255,255,.2);
+}
+}
+
+.links a{
+    text-decoration:none;
+    color:white;
+    background:rgba(94,28,158,.55);
+    padding:12px;
+    border-radius:10px;
+    text-align:center;
+    transition:.2s;
+}
+
+.links a:hover{
+    background:rgba(255,255,255,.2);
+}
+</style>
+</head>
+
+<body>
+
+
+
+<div class="links">
+
+    <div class="coluna">
+        <a href="https://docs.google.com/document/u/0/?tgif=d" target="_blank">Docs</a>
+        <a href="https://www.youtube.com" target="_blank">YouTube</a>
+        <a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a>
+        <a href="https://chatgpt.com" target="_blank">ChatGPT</a>
+    </div>
+
+    <div class="coluna">
+        <a href="https://eaglercraft.com/play/?version=1.8.8-wasm" target="_blank">Eaglercraft</a>
+        <a href="https://gmail.com" target="_blank">Gmail</a>
+        <a href="https://www.canva.com/" target="_blank">Canva</a>
+        <a href="https://chromewebstore.google.com/?pli=1" target="_blank">Chrome Web Store</a>
+        <a href="https://drive.google.com/drive/" target="_blank">Drive</a>
+    </div>
+
+</div>
+
+</body>
+</html>
