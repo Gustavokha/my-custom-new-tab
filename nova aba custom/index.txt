@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Nova Aba</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#111;
+    background-image:url("wallpaper.jpg");
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    font-family:Arial,sans-serif;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+.links{
+    margin-top:30px;
+    display:grid;
+    grid-template-columns:repeat(4,150px);
+    gap:15px;
+}
+
+.links a{
+    text-decoration:none;
+    color:white;
+    background:rgba(0,0,0,.55);
+    padding:12px;
+    border-radius:10px;
+    text-align:center;
+    transition:.2s;
+}
+
+.links a:hover{
+    background:rgba(255,255,255,.2);
+}
+</style>
+</head>
+
+<body>
+
+<img src="logo.png" width="250">
+
+<div class="links">
+    <a href="https://www.google.com" target="_blank">Google</a>
+    <a href="https://www.youtube.com" target="_blank">YouTube</a>
+    <a href="https://github.com" target="_blank">GitHub</a>
+    <a href="https://chatgpt.com" target="_blank">ChatGPT</a>
+    <a href="https://reddit.com" target="_blank">Reddit</a>
+    <a href="https://gmail.com" target="_blank">Gmail</a>
+    <a href="https://drive.google.com" target="_blank">Drive</a>
+    <a href="https://spotify.com" target="_blank">Spotify</a>
+</div>
+
+</body>
+</html>
